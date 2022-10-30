@@ -32,7 +32,7 @@ def checkSpaces():
         if count < 900:
             color = (0, 200, 0)
             thic = 5
-            spaces += 1
+            spaces += 1 
 
         else:
             color = (0, 0, 200)
