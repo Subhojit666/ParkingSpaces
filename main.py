@@ -56,4 +56,3 @@ while True:
     # cv2.imshow("ImageBlur", imgBlur)
     # cv2.imshow("ImageThres", imgMedian)
     cv2.waitKey(10)
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
