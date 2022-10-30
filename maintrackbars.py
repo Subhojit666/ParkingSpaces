@@ -9,7 +9,7 @@ with open('CarParkPos', 'rb') as f:
     posList = pickle.load(f)
 
 
-def empty(a):
+def empty(a): 
     pass
 
 
