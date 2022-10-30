@@ -63,7 +63,7 @@ while True:
     val3 = cv2.getTrackbarPos("Val3", "Vals")
     if val1 % 2 == 0: val1 += 1
     if val3 % 2 == 0: val3 += 1
-    imgThres = cv2.adaptiveThreshold(imgBlur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C,
+    imgThres = cv2.adaptiveThreshold(imgBlur, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, 
                                      cv2.THRESH_BINARY_INV, val1, val2)
     imgThres = cv2.medianBlur(imgThres, val3)
     kernel = np.ones((3, 3), np.uint8)
