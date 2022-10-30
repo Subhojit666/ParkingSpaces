@@ -10,7 +10,7 @@ with open('CarParkPos', 'rb') as f:
 
 
 def empty(a): 
-    pass
+    pass 
 
 
 cv2.namedWindow("Vals")
