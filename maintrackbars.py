@@ -76,5 +76,5 @@ while True:
     # cv2.imshow("ImageGray", imgThres)
     # cv2.imshow("ImageBlur", imgBlur)
     key = cv2.waitKey(1)
-    if key == ord('r'):
+    if key == ord('r'): 
         pass
