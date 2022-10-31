@@ -21,7 +21,7 @@ cv2.createTrackbar("Val3", "Vals", 5, 50, empty)
 
 
 def checkSpaces():
-    spaces = 0
+    spaces = 0      
     for pos in posList:
         x, y = pos
         w, h = width, height
